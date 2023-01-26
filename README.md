@@ -82,7 +82,7 @@ Este es un resumen del paso a paso:
 
 ## 4-Transformación del Test. 
 
-Para ello utilicé Python , más especificamente las librerias pandas y numpy y sklearn para la transformación de los datos y matplotlib y seaborn para las representaciones gráficas (podras encontrar todo el código dentro del notebook [PreprocesamientoTest.ipynb](/PreprocesamientoTest.ipynb)). ***Aclaración: debe tener la misma cantidad de columnas que el dataset train***
+Para ello utilicé Python , más especificamente las librerias pandas y numpy y sklearn para la transformación de los datos y matplotlib y seaborn para las representaciones gráficas (podras encontrar todo el código dentro del notebook [PreprocesamientoTest.ipynb](/PreprocesamientoTest.ipynb). ***Aclaración: debe tener la misma cantidad de columnas que el dataset train***
 
 Este es un resumen del paso a paso:
 
