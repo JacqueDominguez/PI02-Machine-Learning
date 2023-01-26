@@ -115,7 +115,7 @@ A partir del exhaustivo análisis de los datos y observando esta [imagen](https:
 
 </div>
 
-## Para mejorar
+## Puntos de mejora
 Los puntos a mejorar  de este proyecto son :
 + Realizar un modelo de aprendizaje no supervisado.
 + Implementar un analisis de PCA para reducir la cantidad de variables.
