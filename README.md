@@ -97,9 +97,9 @@ Este es un resumen del paso a paso:
 
 ## 4- Predecir los valores del dataset de testeo. 
 
-Corremos nuestro modelo en eldataset [df_test_final.py](/df_test_final.py) que tiene 85 columnas decidimos ,en primer lugar, utilizar un modelo de aprendizaje supervisado , es decir le mostramos al modelo el resultado que esperamos de la variable objetivo, para ello utilizamos Arbol de Decisión , por ser uno de los mas simples, todo lo desarrollamos en python con ayuda de la libreria scikit-learn. 
+Corremos nuestro modelo en eldataset [df_test_final.py](/df_test_final.py).
 
-El desarrollo del modelo podra encontrarlo aquí [Modelo01.py](/Modelo01.py) .
+El desarrollo del modelo podra encontrarlo aquí [ModeloTest.py](/ModeloTest.py) .
 
 Este es un resumen del paso a paso:
 
