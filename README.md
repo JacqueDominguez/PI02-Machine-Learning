@@ -112,7 +112,7 @@ Este es un resumen del paso a paso:
 </div>
 
 ## CONCLUSIONES 
-A partir del exhaustivo análisis de los datos y observando esta [imagen](https://drive.google.com/file/d/1sXDBy_M6Krmea51ccPdIxXrCrLK8a3WD/view?usp=share_link)) podemos concluir:
+A partir del exhaustivo análisis de los datos y observando esta [imagen](https://drive.google.com/file/d/1sXDBy_M6Krmea51ccPdIxXrCrLK8a3WD/view?usp=share_link) podemos concluir:
 + Que la variable mas imortante para definir el precio en el mercado inmobiliario analizado es el tamaño de la propiedad. 
 + Que la segunda variable de más importancia es la ubicación. 
 + Si se encuentra ante la decisión de invertir en una proiedad esos dos atributos deben ser los de mayor peso en su análisis. 
