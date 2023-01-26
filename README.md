@@ -82,6 +82,37 @@ Este es un resumen del paso a paso:
 
 ## 4-Transformación del Test. 
 
+Para ello utilicé Python , más especificamente las librerias pandas y numpy y sklearn para la transformación de los datos y matplotlib y seaborn para las representaciones gráficas (podras encontrar todo el código dentro del notebook [PreprocesamientoTest.ipynb](/PreprocesamientoTest.ipynb)). ***Aclaración: debe tener la misma cantidad de columnas que el dataset train***
+
+Este es un resumen del paso a paso:
+
++ Completar valores nulos de laundry_options y parking_options con la moda por tipo de propiedad. 
++ Completar los valores de latitud y longitud con el valor anterior en el dataset ordenado por región. 
++ Convertir las variables categóricas en numéricas.
++ Escalar las variables numéricas.
++ Eliminar las columnas que no utilizaremos en el modelo.
++ Agregar las columnas que le faltan. 
+
+</div>
+
+## 4- Predecir los valores del dataset de testeo. 
+
+Corremos nuestro modelo en eldataset [df_test_final.py](/df_test_final.py) que tiene 85 columnas decidimos ,en primer lugar, utilizar un modelo de aprendizaje supervisado , es decir le mostramos al modelo el resultado que esperamos de la variable objetivo, para ello utilizamos Arbol de Decisión , por ser uno de los mas simples, todo lo desarrollamos en python con ayuda de la libreria scikit-learn. 
+
+El desarrollo del modelo podra encontrarlo aquí [Modelo01.py](/Modelo01.py) .
+
+Este es un resumen del paso a paso:
+
++ Extraer los datos del dataset.
++ Separar los datos en entrenamiento y testeo.
++ Entrenar el modelo. 
++ Evaluar el modelo , en este caso tenemos un ***Accuracy:  0.915 y un Recall:  0.897***
++ Realizamos la evaluación de los hiperparámetros y definimos la mejor opción. 
+
+</div>
+
+## CONCLUSIONES 
+
 Para ello utilicé Python , más especificamente las librerias pandas y numpy y sklearn para la transformación de los datos y matplotlib y seaborn para las representaciones gráficas (podras encontrar todo el código dentro del notebook [PreprocesamientoTest.ipynb](/PreprocesamientoTest.ipynb)).
 
 Este es un resumen del paso a paso:
@@ -91,7 +122,7 @@ Este es un resumen del paso a paso:
 + Convertir las variables categóricas en numéricas.
 + Escalar las variables numéricas.
 + Eliminar las columnas que no utilizaremos en el modelo. 
-
+<img src="https://drive.google.com/file/d/1sXDBy_M6Krmea51ccPdIxXrCrLK8a3WD/view?usp=share_link?resize=1000%2C720&quality=80&ssl=1" width="320px">
 </div>
 
 ## Tecnologías Utilizadas
