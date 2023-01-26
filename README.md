@@ -19,7 +19,7 @@ El Machine Learning es una disciplina enfocada en entrenar un modelo matemático
 + Realizar la ingesta de datos desde el dataset de entrenamiento .
 + Efectuar el  **Análisis exploratorio de datos** (EDA) al  dataset de entrenamiento.
 + Hacer  las **transformaciones** necesarias a fin de adecuar la información para el modelo.
-+ Elegir el modelo (en nuestro caso Árbol de decisión) y entrenarlo con los datos transformados.
++ Elegir el modelo (en este caso Árbol de decisión) y entrenarlo con los datos transformados.
 + Correr el modelo seleccionado y evaluar los resultados.
 + Mejorar los hiperparámetros del modelo para mejorar las métricas de evaluación.
 
@@ -45,9 +45,9 @@ Algunos de los hallazgos más destacados fueron:
 
 + El dataset posee 346479 filas y 22 columnas, solo posee nulos en 4 columnas y solo en una (parking_options) los nulos superan el 25% de los datos.
 + Errores en los datos de latitud y longitud , los valores fuera del rango esperado son menores al 1% (no significativos)
-+ Filas duplicadas: existen mas de 70 mil por lo que consideramos que se deben eliminar. 
++ Filas duplicadas: existen y representan mas del 20% del dataset por lo que consideramos que se deben eliminar. 
 + Tipo de dato incorrecto: la columna baths tiene un tipo de dato float que debe corregirse a entero. 
-+ Valores Atipicos o Outliers: analizando las columnas bath y beds vemos que hay valores extraños (>10) que deben eliminarse por considerarlos un error de tipeo.Para el caso de Price y Sqfeet no solo hay grandes outliers sino también valores iguales a cero. 
++ Valores Atipicos o Outliers: analizando las columnas bath y beds vemos que hay valores extraños (>10) .Para el caso de Price y Sqfeet no solo hay grandes outliers sino también valores iguales a cero. 
 + Variables Categóricas: solo hicimos hincapié en su composición. 
 
 ### 2- Preprocesamiento y transformación del dataset de Train:
@@ -57,16 +57,14 @@ Para ello utilicé Python , más especificamente las librerias pandas y numpy y 
 Este es un resumen del paso a paso:
 
 + Completar valores nulos de laundry_options y parking_options con la moda por tipo de propiedad. 
-+ Completar los valores de latitud y longitud con el valor anterior en el dataset ordenado por región. 
++ Completar los valores de latitud y longitud . 
 + Realizar las correcciones de tipo de dato y valores atípicos declaradas en el punto anterior. 
 + Crear la columna que representa la variable objetivo a partir de la columna precio. 
 + Eliminar las columnas que no utilizaremos en el modelo.
-+ Escalar las variables numéricas.
-+ Convertir las variables categóricas en numéricas.
 
 ### 3- Definir el modelo y entrenarlo
 
-Teniendo en cuenta que nuestra variable objetivo es categórica  y que nuestro dataset [df_train_final.py](/df_train_final.py) tiene 85 columnas decidimos ,en primer lugar, utilizar un modelo de aprendizaje supervisado , es decir le mostramos al modelo el resultado que esperamos de la variable objetivo, para ello utilizamos Arbol de Decisión , por ser uno de los mas simples, todo lo desarrollamos en python con ayuda de la libreria scikit-learn. 
+Teniendo en cuenta que nuestra variable objetivo es categórica decidimos ,en primer lugar, utilizar un modelo de aprendizaje supervisado , es decir le mostramos al modelo el resultado que esperamos de la variable objetivo, para ello utilizamos Arbol de Decisión , por ser uno de los mas simples y fáciles de entender, todo lo desarrollamos en python con ayuda de la libreria scikit-learn. 
 
 El desarrollo del modelo podra encontrarlo aquí [Modelo01.py](/Modelo01.py) .
 
@@ -87,9 +85,7 @@ Para ello utilicé Python , más especificamente las librerias pandas y numpy y 
 Este es un resumen del paso a paso:
 
 + Completar valores nulos de laundry_options y parking_options con la moda por tipo de propiedad. 
-+ Completar los valores de latitud y longitud con el valor anterior en el dataset ordenado por región. 
-+ Convertir las variables categóricas en numéricas.
-+ Escalar las variables numéricas.
++ Completar los valores de latitud y longitud . 
 + Eliminar las columnas que no utilizaremos en el modelo.
 + Agregar las columnas que le faltan. 
 
@@ -97,13 +93,13 @@ Este es un resumen del paso a paso:
 
 ## 4- Predecir los valores del dataset de testeo. 
 
-Corremos nuestro modelo en eldataset [df_test_final.py](/df_test_final.py).
+Corremos nuestro modelo en el dataset [df_test_final.py](/df_test_final.py).
 
 El desarrollo del modelo podra encontrarlo aquí [ModeloTest.py](/ModeloTest.py) .
 
 Este es un resumen del paso a paso:
 
-+ Extraer los datos del dataset.
++ Extraer los datos de ambos dataset.
 + Separar los datos en entrenamiento y testeo.
 + Entrenar el modelo. 
 + Evaluar el modelo , en este caso tenemos un ***Accuracy:  0.915 y un Recall:  0.897***
