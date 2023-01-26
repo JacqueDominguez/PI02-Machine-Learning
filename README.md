@@ -112,17 +112,11 @@ Este es un resumen del paso a paso:
 </div>
 
 ## CONCLUSIONES 
+A partir del exhaustivo análisis de los datos y observando esta [imagen](https://drive.google.com/file/d/1sXDBy_M6Krmea51ccPdIxXrCrLK8a3WD/view?usp=share_link)) podemos concluir:
++ Que la variable mas imortante para definir el precio en el mercado inmobiliario analizado es el tamaño de la propiedad. 
++ Que la segunda variable de más importancia es la ubicación. 
++ Si se encuentra ante la decisión de invertir en una proiedad esos dos atributos deben ser los de mayor peso en su análisis. 
 
-Para ello utilicé Python , más especificamente las librerias pandas y numpy y sklearn para la transformación de los datos y matplotlib y seaborn para las representaciones gráficas (podras encontrar todo el código dentro del notebook [PreprocesamientoTest.ipynb](/PreprocesamientoTest.ipynb)).
-
-Este es un resumen del paso a paso:
-
-+ Completar valores nulos de laundry_options y parking_options con la moda por tipo de propiedad. 
-+ Completar los valores de latitud y longitud con el valor anterior en el dataset ordenado por región. 
-+ Convertir las variables categóricas en numéricas.
-+ Escalar las variables numéricas.
-+ Eliminar las columnas que no utilizaremos en el modelo. 
-<img src="https://drive.google.com/file/d/1sXDBy_M6Krmea51ccPdIxXrCrLK8a3WD/view?usp=share_link?resize=1000%2C720&quality=80&ssl=1" width="320px">
 </div>
 
 ## Tecnologías Utilizadas
