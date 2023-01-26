@@ -75,8 +75,8 @@ Este es un resumen del paso a paso:
 + Extraer los datos del dataset.
 + Separar los datos en train y test.
 + Entrenar el modelo. 
-+ Evaluar el modelo , en este caso tenemos un ***Accuracy:  0.915 y un Recall:  0.897***
-+ Realizamos la evaluación de los hiperparámetros y definimos la mejor opción. 
++ Realizar la predicción.
++ Enviar la predicción para su evaluación.
 
 </div>
 
