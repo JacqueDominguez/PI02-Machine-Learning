@@ -121,7 +121,8 @@ A partir del exhaustivo análisis de los datos y observando esta [imagen](https:
 Los puntos a mejorar  de este proyecto son :
 + Realizar un modelo de aprendizaje no supervisado.
 + Implementar un analisis de PCA para reducir la cantidad de variables.
-+ Avanzar hacia un modelo de aprendizaje supervisado mas complejo.   
++ Avanzar hacia un modelo de aprendizaje supervisado mas complejo.
++ Implementar piplines.
 
 </div>
 
