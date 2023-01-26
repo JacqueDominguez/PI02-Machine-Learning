@@ -74,7 +74,7 @@ Este es un resumen del paso a paso:
 + Separar los datos en train y test.
 + Entrenar el modelo. 
 + Realizar la predicción.
-+ Enviar la [prediccion](/JacqueDominguez.csv) para su evaluación.
++ Evaluar el modelo , en este caso tenemos un ***Accuracy:  0.9088 y un Recall:  0.883***
 
 </div>
 
@@ -102,16 +102,18 @@ Este es un resumen del paso a paso:
 + Extraer los datos de ambos dataset.
 + Separar los datos en entrenamiento y testeo.
 + Entrenar el modelo. 
-+ Evaluar el modelo , en este caso tenemos un ***Accuracy:  0.9088 y un Recall:  0.883***
-+ Realizamos la evaluación de los hiperparámetros y definimos la mejor opción. 
++ Enviar la [prediccion](/JacqueDominguez.csv) para su evaluación.
++ Resultados Obtenidos : ***Accuracy:  0.928 y un Recall:  0.922***
 
 </div>
 
 ## CONCLUSIONES 
+
 A partir del exhaustivo análisis de los datos y observando esta [imagen](https://drive.google.com/file/d/1sXDBy_M6Krmea51ccPdIxXrCrLK8a3WD/view?usp=share_link) podemos concluir:
-+ Que la variable mas imortante para definir el precio en el mercado inmobiliario analizado es el tamaño de la propiedad. 
+
++ Que la variable más imortante para definir el precio en el mercado inmobiliario analizado es el tamaño de la propiedad. 
 + Que la segunda variable de más importancia es la ubicación. 
-+ Si se encuentra ante la decisión de invertir en una proiedad esos dos atributos deben ser los de mayor peso en su análisis. 
++ Recomendación: Si se encuentra ante la decisión de invertir en una proiedad esos dos atributos deben ser los de mayor peso en su análisis comparativo. 
 
 </div>
 
@@ -119,7 +121,7 @@ A partir del exhaustivo análisis de los datos y observando esta [imagen](https:
 Los puntos a mejorar  de este proyecto son :
 + Realizar un modelo de aprendizaje no supervisado.
 + Implementar un analisis de PCA para reducir la cantidad de variables.
-+ Avanzar con un modelo de aprendizaje supervisado mas complejo.   
++ Avanzar hacia un modelo de aprendizaje supervisado mas complejo.   
 
 </div>
 
@@ -131,6 +133,7 @@ Los puntos a mejorar  de este proyecto son :
 * [Scikit-learn.](https://scikit-learn.org/stable/)
 * [Matplotlib](https://matplotlib.org/stable/index.html)
 * [Seaborn](https://seaborn.pydata.org//)
+* [Colab](https://colab.research.google.com/?hl=es)
 
 </div>
 
