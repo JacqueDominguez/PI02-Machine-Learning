@@ -39,7 +39,7 @@ Para realizar este trabajo se utlizaron archivos .parquet ubicados en esta carpe
 
 ### 1- Extraccion y Análisis exploratorio de datos (EDA) en el dataset de Train:
 
-Para ello utilicé Python , más especificamente las librerias pandas y numpy para el análisis de los datos y matplotlib y seaborn para las representaciones gráficas (podras encontrar todo el código dentro del notebook [EDA.ipynb](/EDA.ipynb)).
+Para ello utilicé Python , más especificamente las librerias pandas y numpy para el análisis de los datos y matplotlib y seaborn para las representaciones gráficas (podras encontrar todo el código dentro del notebook [EDA.ipynb](/EDA.ipynb).
 
 Algunos de los hallazgos más destacados fueron: 
 
@@ -52,7 +52,7 @@ Algunos de los hallazgos más destacados fueron:
 
 ### 2- Preprocesamiento y transformación del dataset de Train:
 
-Para ello utilicé Python , más especificamente las librerias pandas y numpy y sklearn para la transformación de los datos y matplotlib y seaborn para las representaciones gráficas (podrás encontrar todo el código dentro del notebook [PreprocesamientoTrain.ipynb](/PreprocesamientoTrain.ipynb)).
+Para ello utilicé Python , más especificamente las librerias pandas y numpy y sklearn para la transformación de los datos y matplotlib y seaborn para las representaciones gráficas (podrás encontrar todo el código dentro del notebook [PreprocesamientoTrain.ipynb](/PreprocesamientoTrain.ipynb).
 
 Este es un resumen del paso a paso:
 
@@ -76,7 +76,7 @@ Este es un resumen del paso a paso:
 + Separar los datos en train y test.
 + Entrenar el modelo. 
 + Realizar la predicción.
-+ Enviar la predicción para su evaluación.
++ Enviar la [prediccion](/JacqueDominguez.csv) para su evaluación.
 
 </div>
 
